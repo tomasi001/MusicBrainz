@@ -1,4 +1,5 @@
-[![Blitz.js](https://raw.githubusercontent.com/blitz-js/art/master/github-cover-photo.png)](https://blitzjs.com)
+
+<img width="1440" alt="Screenshot 2022-07-27 at 16 20 32" src="https://user-images.githubusercontent.com/68223905/181271167-e03c4fc9-9a36-4146-9a2d-477907a63dff.png">
 
 This is a minimal [Blitz.js](https://github.com/blitz-js/blitz) app.
 
