@@ -15,6 +15,12 @@ This is a minimal [Blitz.js](https://github.com/blitz-js/blitz) app.
 "cd" ~/MusicBrainz
 ```
 
+- Install blitz 
+
+```
+npm i -g blitz@0.45.5
+```
+
 
 - Install all the dependencies 
 
