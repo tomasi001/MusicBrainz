@@ -9,10 +9,10 @@ import { convertEnumToString } from "../utils"
 type HoverLinkProps = {
   scrollState: scrollBarStateEnum
   scrollPos: string
-  key: number
+  id: number
 }
 
-const HoverLink: FC<HoverLinkProps> = ({ scrollState, scrollPos, key }) => {
+const HoverLink: FC<HoverLinkProps> = ({ scrollState, scrollPos, id }) => {
   const { colorMode } = useColorMode()
   const setScrollBarPos = useSetRecoilState(scrollBarPositionAtom)
   const [scrollBarState, setScrollBarState] = useRecoilState(scrollBarStateAtom)
@@ -28,7 +28,7 @@ const HoverLink: FC<HoverLinkProps> = ({ scrollState, scrollPos, key }) => {
       : Routes.Home()
 
   return (
-    <Flex key={key} fontSize="16px" fontFamily="Poppins, sans-serif">
+    <Flex key={id} fontSize="16px" fontFamily="Poppins, sans-serif">
       <BlitzLink href={url}>
         <a>
           <Text

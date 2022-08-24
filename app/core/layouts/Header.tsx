@@ -49,6 +49,7 @@ const Header: BlitzPage = () => {
             <HoverLink
               scrollState={item as unknown as scrollBarStateEnum}
               scrollPos={posEnumValues[i] || ""}
+              id={i}
               key={i}
             />
           )

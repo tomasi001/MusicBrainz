@@ -8,7 +8,7 @@ import {
 import { RecoilRoot } from "recoil"
 
 import { ChakraProvider } from "@chakra-ui/react"
-import { theme, overrides } from "app/core/theme/theme"
+import { overrides } from "app/core/theme/theme"
 
 export default function App({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout || ((page) => page)
